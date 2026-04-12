@@ -46,6 +46,17 @@ class Cache<K: Any, V: Any> {
         return immutableCopy
     }
 
+    fun filterValues(predicate: (V) -> Boolean): Map<K, V>{
+        val mutableMap = mutableMapOf<K, V>()
+
+        for ((key, value) in map){
+            if (predicate(value)){
+                mutableMap[key] = value
+            }
+        }
+        return mutableMap.toMap()
+    }
+
 }
 
 fun main() {
@@ -64,6 +75,8 @@ fun main() {
     println("Transform \"kotlin\" (+1): ${wordCache.transform("kotlin") { it + 1 }}")
     println("Transform \"cobol\" (+1): ${wordCache.transform("cobol") { it + 1 }}")
     println("Snapshot: ${wordCache.snapshot()}")
+
+    println("Words with frequency > 0: ${wordCache.filterValues { it > 0 }}")
 
     val idCache = Cache<Int, String>()
 
