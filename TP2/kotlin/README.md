@@ -111,7 +111,9 @@ Justificação:
 - Melhora legibilidade e usabilidade da classe.
 
 ### 3.3 Arquitetura da Aplicação Android
-A aplicação segue uma arquitetura simplificada baseada na separação de responsabilidades:
+A aplicação segue uma arquitetura simplificada baseada na separação de responsabilidades
+
+---
 
 ## 4. Implementação
 Este capítulo descreve os principais módulos desenvolvidos, os conceitos utilizados e a sua fundamentação teórica, com base nos exercícios em Kotlin realizados na primeira parte do trabalho.
@@ -179,6 +181,8 @@ No exercício Vec2, foram utilizados conceitos matemáticos:
 - Produto escalar 
 - Normalização
 
+---
+
 ## 5. Testes e Validação
 O processo de validação do sistema teve como objetivo garantir o correto funcionamento das funcionalidades implementadas, bem como a fiabilidade e consistência dos resultados obtidos.
 
@@ -215,6 +219,7 @@ Na aplicação Android, os testes centraram-se na verificação do comportamento
 - Interação com o utilizador;
 - Adaptação a diferentes orientações de ecrã.
 
+---
 ## 6.Instruções de Utilização 
 
 ### 6.1 Executar exercícios Kotlin
@@ -228,6 +233,7 @@ Na aplicação Android, os testes centraram-se na verificação do comportamento
 2. Configurar um dispositivo: Emulador (AVD), ou Dispositivo físico Android;
 3. Carregar em Run  para compilar e executar a aplicação.
 
+---
 # Autonomous Software Engineering
 
 ## 7. Estratégia de Prompting 
