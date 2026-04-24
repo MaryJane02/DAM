@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Cool Weather App</string>
+    <string name="temp_txt" translatable="false">30º</string>
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="sea_level_label">Sea Level Pressure</string>
+    <string name="wind_dir_label">Wind Direction</string>
+    <string name="wind_speed_value" translatable="false">13.0 km/h</string>
+    <string name="latitude_value" translatable="false">38.76</string>
+    <string name="wind_speed_label">Wind Speed</string>
+    <string name="time_label">Time</string>
+    <string name="longitude_value" translatable="false">-9.12</string>
+    <string name="sea_level_value" translatable="false">1026.4 hPa</string>
+    <string name="wind_dir_value" translatable="false">214</string>
+    <string name="time_value" translatable="false">2023–03–10T12:00</string>
+    <string name="btn_update">UPDATE</string>
+    <string name="weather_symbol" translatable="false">Weather Symbol</string>
+
+</resources>
