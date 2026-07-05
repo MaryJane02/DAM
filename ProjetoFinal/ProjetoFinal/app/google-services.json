@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "605229567656",
+    "project_id": "set-point-49749",
+    "storage_bucket": "set-point-49749.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:605229567656:android:185cf1d5d44ab9eda53c9d",
+        "android_client_info": {
+          "package_name": "com.setpoint"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "605229567656-r8sfggvas7qe63q7u79betv9lcneo2m1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.setpoint",
+            "certificate_hash": "e7cf8503dea2af0817c745e7edc5d842b8dc5dc3"
+          }
+        },
+        {
+          "client_id": "605229567656-9m3d91i6c1l27ooi5ls5gmsnng7e98va.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI2IR0kCojwfRUMQy1Mc3_ZMizplBt1P8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "605229567656-9m3d91i6c1l27ooi5ls5gmsnng7e98va.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
